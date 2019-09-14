@@ -19,7 +19,7 @@ VALUES ("Thomas", "Jefferson", 3, "1732-4-13 00:00:00"),
 
 select * from presidents;
 select lname, num, dob from presidents order by num asc;
-select lname, num, dob from presidents order by lname asc;
+select lname, num, don from presidents order by lname asc;
 select lname, num, dob from presidents order by dob desc;
 
 
