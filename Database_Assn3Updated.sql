@@ -32,7 +32,7 @@ CREATE TABLE `Customers` (
   `ProductID` int,
   `PhoneNumber` int,
   `idNumber` int AUTO_INCREMENT,
-  PRIMARY KEY (`idNumber`)
+  FOREIGND KEY (`idNumber`)
 );
 
 CREATE TABLE `Departure` (
@@ -59,7 +59,7 @@ CREATE TABLE `Item` (
   `Description` text,
   `Size` text,
   `ItemID` int AUTO_INCREMENT,
-      PRIMARY KEY (`ItemID`)
+    PRIMARY KEY (`ItemID`)
 
 );
 
